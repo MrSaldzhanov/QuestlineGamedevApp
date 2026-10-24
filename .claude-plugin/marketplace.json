@@ -1,0 +1,12 @@
+{
+  "name": "questline",
+  "description": "Questline: план проекта по неделям для Claude Code и телефона",
+  "owner": { "name": "Ilkhom Saldzhanov" },
+  "plugins": [
+    {
+      "name": "questline",
+      "source": "./plugins/questline",
+      "description": "Оценка проекта, план по неделям и перепланирование для приложения Questline"
+    }
+  ]
+}
