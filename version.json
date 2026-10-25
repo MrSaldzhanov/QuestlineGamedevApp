@@ -1,10 +1,9 @@
 {
-    "version":  "2.4.2",
+    "version":  "2.4.3",
     "notes":  [
-                  "На Android снова видны подписи кнопок «Начинаю», «Пауза», «Перенести», «Не нужно»",
-                  "Своя задача в работе подписана «Ты делаешь эту задачу»"
+                  "Новая версия теперь видна сразу при входе, без нажатия «Проверить обновления»"
               ],
     "apk":  "https://github.com/MrSaldzhanov/QuestlineGamedevApp/raw/main/Questline.apk",
     "skillUpdate":  false,
-    "publishedAt":  "2026-10-25T15:27:54Z"
+    "publishedAt":  "2026-10-25T15:37:11Z"
 }
