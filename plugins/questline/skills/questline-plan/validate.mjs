@@ -108,6 +108,9 @@ for (const t of plan.tasks ?? []) {
   if (!Array.isArray(t.deps)) err(`${where}: deps должен быть массивом`);
   if (t.kind === "agent" && !t.prompt) warn(`${where}: agent-задача без prompt`);
   if ((t.kind === "play" || t.kind === "review") && !(t.checklist?.length)) warn(`${where}: ${t.kind}-задача без checklist`);
+  if (t.tags != null && (!Array.isArray(t.tags) || t.tags.some(g => typeof g !== "string" || !ID_RE.test(g))))
+    err(`${where}: tags — массив kebab-case строк`);
+  if (t.decision != null && (typeof t.decision !== "string" || !t.decision.trim())) err(`${where}: decision — непустой вопрос`);
 }
 
 // Зависимости: существуют, без циклов, не позже по неделям
