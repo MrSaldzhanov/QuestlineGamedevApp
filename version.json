@@ -1,0 +1,10 @@
+{
+    "version":  "2.3.0",
+    "notes":  [
+                  "Приложение само предлагает новую версию",
+                  "Версия и «Проверить обновления» во вкладке «Я»"
+              ],
+    "apk":  "https://github.com/MrSaldzhanov/QuestlineGamedevApp/raw/main/Questline.apk",
+    "skillUpdate":  false,
+    "publishedAt":  "2026-10-25T14:26:46Z"
+}

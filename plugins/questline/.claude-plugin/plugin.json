@@ -1,6 +1,8 @@
 {
-  "name": "questline",
-  "description": "Оценка проекта, план по неделям и перепланирование для приложения Questline",
-  "version": "2.2.0",
-  "author": { "name": "Ilkhom Saldzhanov" }
+    "name":  "questline",
+    "description":  "Оценка проекта, план по неделям и перепланирование для приложения Questline",
+    "version":  "2.3.0",
+    "author":  {
+                   "name":  "Ilkhom Saldzhanov"
+               }
 }
