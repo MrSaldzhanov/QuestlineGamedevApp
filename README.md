@@ -7,10 +7,14 @@
 
 ## Установка — 4 шага
 
-**📱 На телефоне (Android)**
+**📱 На телефоне**
 
-1. Скачай и поставь **[Questline.apk](https://github.com/MrSaldzhanov/QuestlineGamedevApp/raw/main/Questline.apk)**.
-   Если телефон спросит — разреши установку из этого источника.
+1. Поставь приложение:
+   * **Android** — скачай и поставь **[Questline.apk](https://github.com/MrSaldzhanov/QuestlineGamedevApp/raw/main/Questline.apk)**.
+     Если телефон спросит — разреши установку из этого источника.
+   * **iPhone** — открой **[questline.mrsaldzhanov.workers.dev](https://questline.mrsaldzhanov.workers.dev)** в Safari,
+     нажми «Поделиться» → «На экран „Домой“» и запускай оттуда. Напоминания включаются во вкладке «Я»
+     (нужен iOS 16.4+). Та же ссылка работает и в браузере на компьютере.
 2. В приложении нажми **«Начать»**:
    * войди через GitHub — код скопируется сам, вставишь его на github.com;
    * нажми **«Установить на репозиторий»** и выбери репозиторий проекта. Если он чужой,
