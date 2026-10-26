@@ -1,11 +1,37 @@
 {
-    "version":  "2.5.2",
+    "version":  "2.6.0",
     "notes":  [
-                  "Новый виджет 1×1 «Кольцо недели»: в центре — сколько задач закрыто, кольцо — сколько осталось",
-                  "В виджете «Сейчас» название задачи в две строки",
-                  "Карточку задачи можно смахнуть вниз за всю шапку — раздел, название и оценку"
+                  "После обновления плана на «Сегодня» появляется карточка «План обновлён»: что добавилось, что перенесено, переоценено и убрано, как сдвинулись вехи",
+                  "Над списком — блок «Почему»: ИИ коротко пишет, что поменял и зачем (нужен обновлённый скилл)",
+                  "Новые задачи помечены «✨ новая», пока не нажмёшь «Понятно»",
+                  "«Обновить план» в «Я» сразу показывает изменения или пишет, что план актуален"
               ],
     "apk":  "https://github.com/MrSaldzhanov/QuestlineGamedevApp/raw/main/Questline.apk",
-    "skillUpdate":  false,
-    "publishedAt":  "2026-10-25T18:11:37Z"
+    "skillUpdate":  [
+                        {
+                            "InputObject":  "9D7CBBF9C4C45073B11E8426AF4AC61A8D2804C2E67091AF68FCF979EBB90F4A",
+                            "SideIndicator":  "=\u003e"
+                        },
+                        {
+                            "InputObject":  "AA67B8344635C9CC080EB84BD86BD8ADF8C821853952F3C7B0CA915F0520F2E3",
+                            "SideIndicator":  "=\u003e"
+                        },
+                        {
+                            "InputObject":  "0D33DE791B3E3880C312B52FDD9200D32C26407761B2E09BDCF1A2296A9E728D",
+                            "SideIndicator":  "=\u003e"
+                        },
+                        {
+                            "InputObject":  "2E37A05C515CCF7E3DEF0D59233FA5CCD006B7C0ABB8CD3830F81A9953B43643",
+                            "SideIndicator":  "\u003c="
+                        },
+                        {
+                            "InputObject":  "4C248AB0247F4864C72D4EABDA86D07BD59C7EE22F4E888922C8081E933E7B15",
+                            "SideIndicator":  "\u003c="
+                        },
+                        {
+                            "InputObject":  "A80A95A8ACBD1809CDC020139CCD815C4A48B580ADFCC44D5CBC1009620DF9E5",
+                            "SideIndicator":  "\u003c="
+                        }
+                    ],
+    "publishedAt":  "2026-10-26T16:27:21Z"
 }

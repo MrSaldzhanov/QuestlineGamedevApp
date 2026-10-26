@@ -29,6 +29,15 @@ const COLOR_RE = /^#[0-9a-fA-F]{6}$/;
 
 if (plan.schema !== "questline.plan/1") err(`schema должен быть "questline.plan/1", а не ${JSON.stringify(plan.schema)}`);
 if (!Number.isInteger(plan.revision) || plan.revision < 1) err("revision должен быть целым ≥ 1");
+if (plan.changes != null) {
+  const ch = plan.changes;
+  if (typeof ch !== "object" || Array.isArray(ch)) err("changes — объект { revision, summary, items }");
+  else {
+    if (ch.revision != null && ch.revision !== plan.revision) warn(`changes.revision ${ch.revision} ≠ revision ${plan.revision} — приложение не покажет это пояснение`);
+    if (ch.summary != null && typeof ch.summary !== "string") err("changes.summary — строка");
+    if (ch.items != null && (!Array.isArray(ch.items) || ch.items.some((x) => typeof x !== "string"))) err("changes.items — массив строк");
+  }
+} else if (plan.revision > 1) warn("нет changes — напиши, что и почему поменялось в этой ревизии (приложение покажет это над списком изменений)");
 
 const p = plan.project ?? {};
 if (!p.id || !ID_RE.test(p.id)) err("project.id обязателен, kebab-case");
